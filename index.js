@@ -11,3 +11,12 @@ burger.addEventListener('click', (e) => {
     }
     isNavOpen = !isNavOpen;
 })
+
+window.addEventListener('resize', (e) => {
+    if (window.innerWidth >= 850) {
+        nav.style.visibility = 'visible'
+    } else {
+        nav.style.visibility = 'hidden'
+    }
+    
+})
