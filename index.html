@@ -5,64 +5,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./css/index.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <main>
+    <heading class="grid-child">
+      <img src="./images/logo.svg" alt="sunny-logo">
+      <img src="./images/icon-hamburger.svg" alt="hamburger-logo">
+      <nav id="nav">
+        <h1>About</h1>
+        <h1>Services</h1>
+        <h1>Projects</h1>
+        <h1>Contact</h1>
+      </nav>
+      <div class="">
+        <h1>We are creatives</h1>
+        <img src="./images/icon-arrow-down.svg" alt="arrow-down">
+      </div>
+    </heading>
+    <div class="grid-child background-container">
 
-  We are creatives
+    </div>
+    <div class="grid-child background-container">
+      <h1>Transform your brand</h1>
+      <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <h2>Learn More</h2>
+    </div>
 
-  Transform your brand
+    <div class="grid-child background-container">
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+    </div>
 
-  Learn more
+    <div class="grid-child background-container">
+      <h1>Stand out to the right audience</h1>
+      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <h2>Learn More</h2>
+    </div>
 
-  Stand out to the right audience
+    <div class="grid-child background-container graphic-design">
+      <div class="text-container">
+        <h1>Graphic design</h1>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+    </div>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+    <div class="grid-child background-container photography">
+      <div class="text-container">
+        <h1>Photography</h1>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </div>
 
-  Learn more
+    <div class="grid-child">
+      <h1>Client Testimonials</h1>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="./images/image-emily.jpg" alt="emily">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <div class="name-position">
+            <h1>Emily R.</h1>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="./images/image-thomas.jpg" alt="thomas">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <div class="name-position">
+            <h1>Thomas S.</h1>
+            <p>Chief Operating Officer</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="./images/image-jennie.jpg" alt="jennie">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <div class="name-position">
+            <h1>Jennie F.</h1>
+            <p>Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+    <div class="grid-child multi-grid-child">
+      <div class="background-container">
+      </div>
+      <div class="background-container">
+      </div>
+      <div class="background-container">
+      </div>
+      <div class="background-container">
+      </div>
+    </div>
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <footer class="grid-child">
+      <img src="./images/logo.svg" alt="sunnyside logo">
+      <div class="footer-nav">
+        <h1>About</h1>
+        <h1>Services</h1>
+        <h1>Projects</h1>
+      </div>
+      <div class="socials">
+        <img src="./images/icon-facebook.svg" alt="facebook icon">
+        <img src="./images/icon-instagram.svg" alt="facebook icon">
+        <img src="./images/icon-twitter.svg" alt="facebook icon">
+        <img src="./images/icon-pinterest.svg" alt="facebook icon">
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
